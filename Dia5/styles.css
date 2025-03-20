@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Amazon Embered';
+    src: url(/DIA5/fonts/AmazonEmber_Lt.ttf);
+    font-weight: normal;
+    font-size: 300px; 
+}
+
+body{
+    background-color: black;
+}
+
+#fondo {
+    width: 1920px;
+    height: 1080px;
+    background-repeat: no-repeat;
+    background: black url('../Dia5/img/FondoTwitch.png') 0% 0% no-repeat padding-box;
+    opacity: 0.99;
+    z-index: 10;
+}
+
+#topbar {
+    display: flex;
+    background-color: none;
+}
+
+#search {
+    width: 90%;
+    height: 100%;
+    z-index: 10;
+}
+
+div.login {
+    width: 5%;
+    float: inline-end;
+    float: right;
+    height: 100%;
+}
+
+button.login {
+    width: 205px;
+    height: 54px;
+    border-radius: 100px;
+    font-family: 'Amazon Embered';
+    font-size: 25px;
+    text-align: center; 
+}
+
+
+
+#logo {
+    display: block;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#title1{
+    font-family: 'Amazon Embered';
+    color: white;
+    font-size: 60px;
+}
+
+#p1{
+    font-family: 'Amazon Embered';
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+}
+
+#text1 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+div.signup {
+    margin-top: 120px;
+    text-align: center;
+    height: 360px;
+}
+
+button.signup {
+    border-radius: 150px;
+    width: 400px;
+    height: 100px;
+    font-family: 'Amazon Embered';
+    font-size: 40px;
+}
+
+
+.container {
+    text-align: center;
+    background-color: rgb(5, 160, 209);
+    display: block;
+    width: 100%;
+    height: 35%;
+    margin: 1% 1.5%;
+    border-radius: 50px;
+    font-family: 'Amazon Embered';
+    color: white;
+}
+
+.title-cont{
+    font-size: 50px;
+}
+
+.p-cont{
+    font-size: 30px;
+    color: white;
+}
+
+
+div.container2{
+    text-align: center;
+    background-color: rgb(5, 160, 209);
+    display: block;
+    width: 100%;
+    height: 45%;
+    margin: 1% 1.5%;
+    border-radius: 50px;
+    font-family: 'Amazon Embered';
+    color: white;
+}
+
+img.container{
+    width: 10%;
+    height: 15%;
+}
+
+
+
+div.devices{
+    text-align: center;
+}
+
+img.devices{
+    width: 271px;
+    height: 238px;
+    opacity: 0.5;
+}
+
+
+#mac{
+    width: 564px;
+    height: 500px;
+    opacity: 0.5;
+}
+
+
+
+
+
+#politicas{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.etc{
+    font-family: 'Amazon Embered';
+    color: white;
+    margin: auto 15px;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+}
